@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+       //find 2^N
+    int n=5;
+    
+    System.out.println(get2PowN(n));
+    }
+    
+    public static int get2PowN(int n){
+        return (1<<n);
+    }
+}
